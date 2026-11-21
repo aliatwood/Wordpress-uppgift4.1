@@ -1,0 +1,128 @@
+/* ===== Grundinställningar ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #252822;
+    background-color: #f8f7f3;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== Navigation ===== */
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: #f8f7f3;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main-navigation ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.main-navigation a {
+    transition: color 0.3s ease;
+}
+
+.main-navigation a:hover {
+    color: #9a8065;
+}
+
+/* ===== Hero ===== */
+
+.hero {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    background-color: #e9e4da;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: #8b745b;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: 1.1;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.hero-content > p:not(.eyebrow) {
+    font-size: 18px;
+    color: #66645e;
+    margin-bottom: 35px;
+}
+
+/* ===== Knappar ===== */
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #343c32;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #59664f;
+}
+
+/* ===== Footer ===== */
+
+footer {
+    padding: 30px 8%;
+    text-align: center;
+    background-color: #343c32;
+    color: white;
+    font-size: 14px;
+}
+
+/* ===== Responsiv design ===== */
+
+@media (max-width: 768px) {
+    .main-navigation {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-navigation ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 550px;
+        padding: 60px 7%;
+    }
+}
