@@ -622,3 +622,36 @@ footer {
         width: 100%;
     }
 }
+
+/* ===== AI-redovisning ===== */
+
+.ai-content {
+    display: block;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 70px 25px;
+}
+
+.ai-content h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.ai-content h2:first-child {
+    margin-top: 0;
+}
+
+.ai-content p,
+.ai-content ul {
+    text-align: left;
+    color: #706e67;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.ai-content ul {
+    padding-left: 25px;
+}
