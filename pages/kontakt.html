@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakta Nordic Living för frågor om våra möbler, produkter och tjänster.">
+    <title>Kontakt | Nordic Living</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+</head>
+<body>
+
+    <header>
+        <nav class="main-navigation">
+            <a href="../index.html" class="logo">Nordic Living</a>
+
+            <ul>
+                <li><a href="../index.html">Hem</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="om-oss.html">Om oss</a></li>
+                <li><a href="nyheter.html">Nyheter</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">Vi finns här för dig</p>
+            <h1>Låt oss prata.</h1>
+            <p>
+                Har du frågor om våra produkter eller behöver du
+                inspiration till ditt hem? Hör gärna av dig.
+            </p>
+        </section>
+
+        <section class="contact-section">
+
+            <div class="contact-information">
+                <p class="eyebrow">Kontaktuppgifter</p>
+                <h2>Vi hjälper dig gärna.</h2>
+
+                <p>
+                    Vårt team finns här för att hjälpa dig med allt
+                    från produktfrågor till personlig rådgivning.
+                </p>
+
+                <div class="contact-detail">
+                    <h3>E-post</h3>
+                    <a href="mailto:hej@nordicliving.se">
+                        hej@nordicliving.se
+                    </a>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>Telefon</h3>
+                    <a href="tel:+46812345678">
+                        08-123 45 678
+                    </a>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>Besöksadress</h3>
+                    <p>Designgatan 12, 111 22 Stockholm</p>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>Öppettider</h3>
+                    <p>Måndag–fredag: 10.00–18.00</p>
+                    <p>Lördag: 11.00–16.00</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Skicka en förfrågan</h2>
+
+                <form class="contact-form" action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="name">Namn</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Ditt namn"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-postadress</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="din@email.se"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Ämne</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Välj ett ämne</option>
+                            <option value="product">Produktfråga</option>
+                            <option value="order">Beställning</option>
+                            <option value="collaboration">Samarbete</option>
+                            <option value="other">Övrigt</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Meddelande</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Hur kan vi hjälpa dig?"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="form-consent">
+                        <input
+                            type="checkbox"
+                            id="consent"
+                            name="consent"
+                            required
+                        >
+                        <label for="consent">
+                            Jag godkänner att Nordic Living hanterar
+                            mina uppgifter för att besvara min förfrågan.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="button">
+                        Skicka meddelande
+                    </button>
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nordic Living. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
